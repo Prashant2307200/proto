@@ -1,6 +1,6 @@
 dev:
 	protoc \
 	--proto_path=. \
-  --go_out=authpb \
-  --go-grpc_out=authpb \
+  --go_out=. \
+  --go-grpc_out=. \
   auth.proto
