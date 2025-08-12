@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package auth;
 
-option go_package = "github.com/Prashant2307200/proto/gen;authpb";
+option go_package = ".;authpb";
 
 service AuthService {
   rpc GetPublicKey (Empty) returns (PublicKeyResponse);
